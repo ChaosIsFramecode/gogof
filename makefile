@@ -1,3 +1,5 @@
+# Project makefile
+
 all: run
 
 OUTPUT = ./bin/GameOfLife
