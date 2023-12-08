@@ -22,6 +22,7 @@ func randGen(num int32, randGrid *rand.Rand) []rl.Vector2 {
 }
 
 func main() {
+	// Setup window
 	rl.InitWindow(config.Width, config.Height, "gogof")
 	defer rl.CloseWindow()
 	rl.SetTargetFPS(config.FPS)
